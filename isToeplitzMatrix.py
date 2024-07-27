@@ -6,20 +6,3 @@ def isToeplitzMatrix(matrix : list[list[int]]) -> bool:
                     return False
         
     return True
-
-mat = [[66], 
-       [16]]
-mat2 = [
-    [1,2,3,4],
-    [5,1,2,3],
-    [9,5,1,2],
-]
-print(isToeplitzMatrix(mat2))
-
-'''
-    [1,2,3,4]
-    [2,1,3,4]
-    [1,2,3,4]
-
-
-'''
