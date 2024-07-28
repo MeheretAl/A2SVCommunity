@@ -1,4 +1,3 @@
-
 def longestCommonPrefix(strs: list[str]) -> str:
     res = ''
     prefix = strs[0]
